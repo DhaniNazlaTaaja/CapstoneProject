@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private void getDataFromInternet(){
 
         nama.add("01");
-        foto.add("https://makananoleholeh.com/wp-content/uploads/2018/10/Gulai-belacan-riau.jpg");
+        foto.add("https://dev.farizdotid.com/api/halopwk/gambar/angkot/01.png");
         info.add("trayek: Simpang - Sadang PP" +
                 "lintasan: Sadang - Jl. Ipik Gandamanah (Munjul) - Pasar Jumat - Pasar Rebo - Simpang");
 
@@ -82,17 +82,6 @@ public class MainActivity extends AppCompatActivity {
         foto.add("https://dev.farizdotid.com/api/halopwk/gambar/angkot/010.png");
         info.add("trayek: Ciganea - Babakan Cikao" +
                 "lintasan: Ciganea - Kembang Kuning - Babakan Cikao (Pertigaan Indorama dan Jatiluhur)");
-
-        nama.add("11");
-        foto.add("https://dev.farizdotid.com/api/halopwk/gambar/angkot/011.PNG");
-        info.add("trayek: Ciganea - Jatiluhur" +
-                "lintasan: Ciganea - Jatiluhur");
-
-        nama.add("12");
-        foto.add("https://dev.farizdotid.com/api/halopwk/gambar/angkot/43.png");
-        info.add("trayek: Purwakarta - Cikampek (Pasar Cikampek" +
-                "lintasan: Purwakarta (Pasar Hayam) - Koncara - Sadang - Bungursari - Pasar Cikampek");
-
 
         prosesRecyclerViewAdapter();
 
