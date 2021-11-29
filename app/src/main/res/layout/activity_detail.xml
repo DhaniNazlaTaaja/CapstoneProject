@@ -32,6 +32,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:fontFamily="cursive"
+                android:textStyle="bold"
                 android:text="Judul Nama"
                 android:textAlignment="center"
                 android:textSize="30sp" />
@@ -44,6 +45,8 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="10dp"
+                android:typeface="normal"
+                android:textAlignment="center"
                 android:text="Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi InformasiInformasi Informasi Informasi Informasi Informasi Informasi InformasiInformasi Informasi Informasi Informasi Informasi Informasi InformasiInformasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi"
                 android:textSize="24sp" />
         </LinearLayout>

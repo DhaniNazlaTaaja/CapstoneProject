@@ -33,55 +33,45 @@ public class MainActivity extends AppCompatActivity {
 
     private void getDataFromInternet(){
 
-        nama.add("01");
+        nama.add("01\nSimpang - Sadang PP");
         foto.add("https://dev.farizdotid.com/api/halopwk/gambar/angkot/01.png");
-        info.add("trayek: Simpang - Sadang PP" +
-                "lintasan: Sadang - Jl. Ipik Gandamanah (Munjul) - Pasar Jumat - Pasar Rebo - Simpang");
+        info.add("Lintasan:\nSadang - Jl. Ipik Gandamanah (Munjul) - Pasar Jumat - Pasar Rebo - Simpang");
 
-        nama.add("02");
+        nama.add("02\nSimpang - Sadang PP");
         foto.add("https://dev.farizdotid.com/api/halopwk/gambar/angkot/02.png");
-        info.add("trayek: Simpang - Sadang PP" +
-                "lintasan: Simpang - Pasar Rebo - Jl. RE. Martadinata (jalan Tengah) - Pasar Jumat - Jl. Veteran (Kebon Kolot) - Sadang");
+        info.add("Lintasan:\nSimpang - Pasar Rebo - Jl. RE. Martadinata (jalan Tengah) - Pasar Jumat - Jl. Veteran (Kebon Kolot) - Sadang");
 
-        nama.add("03");
+        nama.add("03\nCiganea - Simpang PP");
         foto.add("https://dev.farizdotid.com/api/halopwk/gambar/angkot/03.png");
-        info.add("trayek: Ciganea - Simpang PP" +
-                "lintasan: Ciganea - Sindangkasih (Parcom) - Pasar Rebo - Pasar Jumat - Koncara");
+        info.add("Lintasan:\nCiganea - Sindangkasih (Parcom) - Pasar Rebo - Pasar Jumat - Koncara");
 
-        nama.add("04");
+        nama.add("04\nCiganea - Simpang PP");
         foto.add("https://dev.farizdotid.com/api/halopwk/gambar/angkot/04.png");
-        info.add("trayek: Ciganea - Simpang PP" +
-                "lintasan: Ciganea - Sindangkasih (Parcom) - Jl. Ahmad Yani (Cipaisan) - Koncara (Pasar Hayam) - Pasar Jumat - Pasar Rebo");
+        info.add("Lintasan:\nCiganea - Sindangkasih (Parcom) - Jl. Ahmad Yani (Cipaisan) - Koncara (Pasar Hayam) - Pasar Jumat - Pasar Rebo");
 
-        nama.add("05");
+        nama.add("05\nSadang - Ciganea PP");
         foto.add("https://dev.farizdotid.com/api/halopwk/gambar/angkot/05.png");
-        info.add("trayek: Sadang - Ciganea PP" +
-                "lintasan: Sadang - Kebon Kolot - Koncara - Cipaisan - Sindangkasih - Ciganea");
+        info.add("Lintasan:\nSadang - Kebon Kolot - Koncara - Cipaisan - Sindangkasih - Ciganea");
 
-        nama.add("06");
+        nama.add("06\nSadang - Ciganea PP");
         foto.add("https://dev.farizdotid.com/api/halopwk/gambar/angkot/06.png");
-        info.add("trayek: Sadang - Ciganea PP" +
-                "lintasan: Kebon Kolot - Pasar Jumat - Sindangkasih - Cipaisan - Koncara - Ciganea");
+        info.add("Lintasan:\nKebon Kolot - Pasar Jumat - Sindangkasih - Cipaisan - Koncara - Ciganea");
 
-        nama.add("07");
+        nama.add("07\nCilangkap - Simpang");
         foto.add("https://dev.farizdotid.com/api/halopwk/gambar/angkot/07.png");
-        info.add("trayek: Cilangkap - Simpang" +
-                "lintasan: Maracang (Taman pahlawan) - Pasar Jumat - Pasar Rebo - Sindangkasih - Cipaisan - Koncara - Maracang");
+        info.add("Lintasan:\nMaracang (Taman pahlawan) - Pasar Jumat - Pasar Rebo - Sindangkasih - Cipaisan - Koncara - Maracang");
 
-        nama.add("08");
+        nama.add("08\nBabakan Cikao - Pasawahan");
         foto.add("https://dev.farizdotid.com/api/halopwk/gambar/angkot/08.png");
-        info.add("trayek: Babakan Cikao - Pasawahan" +
-                "lintasan: Maracang - Jl Baru (Taman Pembaharuan) - Jl Ipik Gandamanah (Cikolotok) - Citalang - Pasawahan");
+        info.add("Lintasan:\nMaracang - Jl Baru (Taman Pembaharuan) - Jl Ipik Gandamanah (Cikolotok) - Citalang - Pasawahan");
 
-        nama.add("09");
+        nama.add("09\nCiganea - Service PP");
         foto.add("https://dev.farizdotid.com/api/halopwk/gambar/angkot/09.png");
-        info.add("trayek: Ciganea - Service PP" +
-                "lintasan: Terminal Ciganea - Indorama - Ubrug");
+        info.add("Lintasan:\nTerminal Ciganea - Indorama - Ubrug");
 
-        nama.add("10");
+        nama.add("10\nCiganea - Babakan Cikao");
         foto.add("https://dev.farizdotid.com/api/halopwk/gambar/angkot/010.png");
-        info.add("trayek: Ciganea - Babakan Cikao" +
-                "lintasan: Ciganea - Kembang Kuning - Babakan Cikao (Pertigaan Indorama dan Jatiluhur)");
+        info.add("Lintasan:\nCiganea - Kembang Kuning - Babakan Cikao (Pertigaan Indorama dan Jatiluhur)");
 
         prosesRecyclerViewAdapter();
 
