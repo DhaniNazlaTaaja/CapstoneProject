@@ -12,8 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Capstone">
         <activity
-            android:name=".DetailActivity"
+            android:name=".about"
             android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="true" />
         <activity
             android:name=".SplashScreen"
             android:exported="true">
@@ -23,7 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
