@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".Dashboard">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="363dp"
         android:gravity="center"
         android:padding="15dp">
 
@@ -20,25 +21,48 @@
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             android:onClick="rute"
-            android:src="@drawable/img" />
+            android:src="@drawable/img_daftar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="rute"
+            android:text="Daftar Rute"
+            android:textAlignment="center"
+            android:textColor="@color/colorAbu"
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="298dp"
+        android:layout_height="395dp"
         android:gravity="center"
         android:padding="15dp">
 
         <ImageView
-            android:layout_width="170dp"
-            android:layout_height="180dp"
+            android:layout_width="159dp"
+            android:layout_height="170dp"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             android:onClick="about"
-            android:src="@drawable/img_2" />
+            android:src="@drawable/img_about" />
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="about"
+            android:text="Tentang Apk"
+            android:textAlignment="center"
+            android:textColor="@color/colorAbu"
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
     </LinearLayout>
-
 
 </LinearLayout>
