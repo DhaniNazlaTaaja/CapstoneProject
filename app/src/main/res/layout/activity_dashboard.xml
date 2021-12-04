@@ -8,9 +8,32 @@
     android:orientation="vertical"
     tools:context=".Dashboard">
 
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="363dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_radius_background"
+        android:backgroundTint="@color/colorBirulangit"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="353dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="Selamat Datang\n Aplikasi Rute Angkot"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
         android:gravity="center"
         android:padding="15dp">
 
@@ -37,22 +60,23 @@
 
     </LinearLayout>
 
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="395dp"
+        android:layout_height="219dp"
         android:gravity="center"
         android:padding="15dp">
 
         <ImageView
-            android:layout_width="159dp"
-            android:layout_height="170dp"
+            android:layout_width="170dp"
+            android:layout_height="180dp"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             android:onClick="about"
             android:src="@drawable/img_about" />
 
         <TextView
-            android:layout_width="210dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:clickable="true"
