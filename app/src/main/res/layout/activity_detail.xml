@@ -50,5 +50,7 @@
                 android:text="Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi InformasiInformasi Informasi Informasi Informasi Informasi Informasi InformasiInformasi Informasi Informasi Informasi Informasi Informasi InformasiInformasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi"
                 android:textSize="24sp" />
         </LinearLayout>
+
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
