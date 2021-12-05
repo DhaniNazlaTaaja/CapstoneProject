@@ -11,9 +11,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/bg_radius_background"
         android:backgroundTint="@color/colorBirulangit"
         android:orientation="horizontal">
@@ -23,7 +24,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginStart="20dp"
-            android:src="@drawable/img_about"/>
+            android:src="@drawable/img_about" />
 
         <TextView
             android:layout_width="match_parent"
@@ -31,12 +32,12 @@
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             android:gravity="center_horizontal|left|center_vertical"
-            android:text="Aplikasi Rute Angkot"
+            android:text="TENTANG APLIKASI"
             android:textStyle="bold"
             android:textColor="@color/white"
             android:textAlignment="center"
-            android:textSize="20sp" />
-
+            android:textSize="20sp"
+            android:fontFamily="@font/mmedium"/>
     </LinearLayout>
 
     <LinearLayout
@@ -54,11 +55,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:fontFamily="@font/mlight"
             android:text="Menu ini digunakan untuk melihat rute angkot yang tersedia"
             android:textAlignment="center"
-            android:textColor="@color/colorAbu"
-            android:textSize="20dp" />
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
     </LinearLayout>
 
@@ -80,23 +82,29 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="57dp"
-        android:gravity="center"
-        android:padding="15dp">
-
+        android:gravity="center_horizontal|center|center_vertical"
+        android:padding="15dp"
+        android:background="@drawable/bg_radius_background"
+        android:backgroundTint="@color/colorBirulangit"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
 
         <ImageView
             android:id="@+id/phone"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:layout_marginRight="15dp"
             android:src="@drawable/ic_phone" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="0711345671"
-            android:textColor="@color/colorAbu"
-            android:textSize="20dp" />
+            android:text="(0711) 345671"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:fontFamily="@font/mlight"
+            android:textStyle="bold"/>
 
     </LinearLayout>
 
@@ -104,13 +112,18 @@
         android:layout_width="match_parent"
         android:layout_height="57dp"
         android:gravity="center"
-        android:padding="15dp">
-
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/bg_radius_background"
+        android:backgroundTint="@color/colorBirulangit">
 
         <ImageView
             android:id="@+id/email"
             android:layout_width="52dp"
             android:layout_height="50dp"
+            android:layout_marginRight="15dp"
             android:src="@drawable/ic_email" />
 
         <TextView
@@ -118,8 +131,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="ruteangkot@gmail.com"
-            android:textColor="@color/colorAbu"
-            android:textSize="20dp" />
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:fontFamily="@font/mlight"
+            android:textStyle="bold"/>
 
     </LinearLayout>
 
