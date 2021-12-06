@@ -4,15 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailActivity">
-
-    <ScrollView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    tools:context=".DetailActivity"
+    android:background="@drawable/bg_radius_background">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -31,11 +24,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:fontFamily="cursive"
+                android:fontFamily="@font/mmedium"
                 android:textStyle="bold"
                 android:text="Judul Nama"
                 android:textAlignment="center"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/textViewInfo"
@@ -47,10 +41,11 @@
                 android:layout_marginBottom="10dp"
                 android:typeface="normal"
                 android:textAlignment="center"
-                android:text="Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi InformasiInformasi Informasi Informasi Informasi Informasi Informasi InformasiInformasi Informasi Informasi Informasi Informasi Informasi InformasiInformasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi"
-                android:textSize="24sp" />
-        </LinearLayout>
+                android:fontFamily="@font/mlight"
+                android:text="Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi Informasi"
+                android:textSize="24sp"
+                android:textColor="@color/black"/>
 
-    </ScrollView>
+        </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
